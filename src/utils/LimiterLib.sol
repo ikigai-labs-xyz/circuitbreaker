@@ -2,7 +2,7 @@
 pragma solidity ^0.8.0;
 
 import {Limiter, LiqChangeNode} from "../static/Structs.sol";
-import {SafeCast} from "openzeppelin-contracts/utils/math/SafeCast.sol";
+import {SafeCast} from "openzeppelin-contracts/contracts/utils/math/SafeCast.sol";
 import {ISettlementModule} from "../interfaces/ISettlementModule.sol";
 
 uint256 constant BPS_DENOMINATOR = 10000;
