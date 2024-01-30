@@ -1,13 +1,17 @@
-# EIP-7265 Reference Implementations
+# Turtleshell EIP-7265 Circuitbreaker SDK
 
-This is the source code for a reference implementation of EIP-7265.
+Circuitbreaker SDK for implementing EIP-7265 compliant circuitbreakers in Solidity.
 
-## Build and Test
+### Installation
 
-The repo expects a [Foundry](https://github.com/foundry-rs/foundry/tree/master/forge) build system, optionally using visual studio code for editing. You can run the test suite with:
+#### Hardhat, Truffle (npm)
 
-```bash
-forge install openzeppelin/openzeppelin-contracts --no-git
-forge install foundry-rs/forge-std --no-git
-forge test
+```
+$ npm install @markeljan/circuitbreaker
+```
+
+#### Foundry (git)
+
+```
+$ forge install ikigai-labs-xyz/circuitbreaker --no-git
 ```
