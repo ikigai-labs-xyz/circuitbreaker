@@ -16,5 +16,5 @@ $ npm install @markeljan/circuitbreaker
 $ forge install ikigai-labs-xyz/circuitbreaker --no-git
 ```
 
-Add `circuitbreaker/=lib/circuitbreaker/src/` in `remappings.txt.`
+Add `circuitbreaker/=lib/circuitbreaker/src/` in `remappings.txt`
 
